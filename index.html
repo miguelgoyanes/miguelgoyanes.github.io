@@ -1,4 +1,3 @@
-<!--# miguelgoyanes.github.io-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +6,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/style.css">        
+        <script src="codigo.js"></script>
     </head>
     <!--Inicio-->
     <body>
@@ -47,6 +47,7 @@
                         <p>Habilidad para tomar decisiones de manera autónoma, basadas en el análisis crítico y riguroso de información y datos, gracias a asignaturas como Análisis de Datos y Toma de Decisiones Empresariales.</p>
                         <p>Competencias para la comunicación efectiva y persuasiva, adquiridas a través de la práctica en la presentación de proyectos y exposiciones orales en diversas materias.</p>
                     </div>
+                    <div class="masinfo"><button type="button"><a href="https://www.usc.gal/es/estudios/grados/ciencias-sociales-juridicas/grado-empresa-tecnologia" target="_blank">MÁS INFO</a></button></div>
                 </div>
                 <div class="textogeneral">
                     <h3>Ciclo superior en administracion y finanzas</h3>
@@ -58,6 +59,7 @@
                         <p>Competencias para la comunicación efectiva y persuasiva, adquiridas mediante la práctica en la presentación de proyectos y exposiciones orales en diversas materias.</p>
                         <p>Habilidad para el trabajo en equipo y la resolución de problemas, gracias a la realización de proyectos en equipo en diversas materias.</p>
                     </div>
+                    <div class="masinfo"><button type="button"><a href="http://www.edu.xunta.gal/centros/iesgregoriofernandez/node/956" target="_blank">MÁS INFO</a></button></div>
                 </div>
             </section>
             <!--Otra Formacion-->
@@ -67,28 +69,28 @@
                     <div id="filaform">
                         <div class="card">
                             <div class="caja_titulo_formacion">
-                                <h3>Curso: Aprende a programar con Python</h3>
+                                <h3><a href="https://www.mastermind.ac/courses/iniciacion-python" target="_blank">Curso: Aprende a programar con Python</a></h3>
                                 <h4>Duración: 12h </h4>
                             </div>
                             <p>Introducción a la programación con Python. Este curso proporciona una introducción práctica y accesible a la programación utilizando Python, uno de los lenguajes de programación más populares y utilizados en el mundo.</p>
                         </div>
                         <div class="card">
                             <div class="caja_titulo_formacion">
-                                <h3>Curso: Crea páginas web con HTML y CSS</h3>
+                                <h3><a href="https://www.mastermind.ac/courses/crea-paginas-web-con-html-css" target="_blank">Curso: Crea páginas web con HTML y CSS</a></h3>
                                 <h4>Duración: 11h </h4>
                             </div>
                             <p>Curso práctico para aprender a desarrollar páginas web utilizando HTML y CSS, con enfoque en el diseño y estructura de sitios web.</p>
                         </div>
                         <div class="card">
                             <div class="caja_titulo_formacion">
-                                <h3>Curso: Introducción a la Ciencia de Datos con Python</h3>
+                                <h3><a href="https://www.mastermind.ac/courses/intro-datascience" target="_blank">Curso: Introducción a la Ciencia de Datos con Python</a></h3>
                                 <h4>Duración: 10h </h4>
                             </div>
                             <p>Curso de introducción a la Ciencia de Datos con Python, enfocado en el aprendizaje de técnicas y herramientas fundamentales para la manipulación, análisis y visualización de datos utilizando la programación en Python.</p>
                         </div>
                         <div class="card">
                             <div class="caja_titulo_formacion">
-                                <h3>Curso: ¿Qué lenguaje de programación aprender?</h3>
+                                <h3><a href="https://www.mastermind.ac/courses/que-lenguaje-de-programacion-aprender" target="_blank">Curso: ¿Qué lenguaje de programación aprender?</a></h3>
                                 <h4>Duración: 1h </h4>
                             </div>
                             <p>Este curso brinda una introducción a los diferentes lenguajes de programación y sus características, ayudando a los estudiantes a tomar una decisión informada sobre qué lenguaje de programación aprender.</p>
@@ -205,7 +207,7 @@
                             <textarea name="mensaje" id="mensaje" cols="33" rows="5"></textarea>
                         </div>
                         <div class="itemform">
-                            <input type="submit" name="enviar" value="CONTACTAR">
+                            <input type="submit" name="enviar" value="CONTACTAR" onclick="validarFormulario()">
                         </div>  
                     </form>
                 </section>
