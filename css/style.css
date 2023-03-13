@@ -25,28 +25,6 @@ a {
     text-decoration: none;
 }
 
-/*utilizamos los siguientes 3 por tema de conpatibilidad con navegadores*/
-a:any-link {
-    color: #F4F9FC;
-    font-size: 17px;
-    font-weight: 400;
-}
-a:-moz-any-link {
-    color: #F4F9FC;
-    font-size: 17px;
-    font-weight: 400;
-}
-a:-webkit-any-link {
-    color: #F4F9FC;
-    font-size: 17px;
-    font-weight: 400;
-}
-
-/*debe ir debajo del resto para que no la sobrescriban*/
-a:hover {
-    color: #2c475c;
-}
-
 ul {
     list-style: none; /*quitar subrrayado*/
 }
@@ -54,6 +32,7 @@ li {
     float: left;
     margin-right: 10px;
 }
+
 /*IDs Class*/
 .cajaazul {
     width: 100%;
@@ -140,6 +119,26 @@ nav ul li {
     padding: 15px;
 
 }
+/*utilizamos los siguientes 3 por tema de conpatibilidad con navegadores*/
+nav a:any-link {
+    color: #F4F9FC;
+    font-size: 17px;
+    font-weight: 400;
+}
+nav a:-moz-any-link {
+    color: #F4F9FC;
+    font-size: 17px;
+    font-weight: 400;
+}
+nav a:-webkit-any-link {
+    color: #F4F9FC;
+    font-size: 17px;
+    font-weight: 400;
+}
+/*debe ir debajo del resto para que no la sobrescriban*/
+nav a:hover {
+    color: #2c475c;
+}
 
 /*Article*/
 article{
@@ -148,6 +147,38 @@ article{
 /*Formacion*/
 #formacion {
     margin: 167px 170px 50px 170px;
+}
+.masinfo {
+    float: right;
+    background-color: #997A66;
+    border-radius: 10px;
+}
+.masinfo button{
+    background-color: #997A66;
+    color: #F4F9FC;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 20px 15px 0 15px;
+}
+/*utilizamos los siguientes 3 por tema de conpatibilidad con navegadores*/
+.masinfo a:any-link {
+    color: #F4F9FC;
+    font-size: 17px;
+    font-weight: 400;
+}
+.masinfo a:-moz-any-link {
+    color: #F4F9FC;
+    font-size: 17px;
+    font-weight: 400;
+}
+.masinfo a:-webkit-any-link {
+    color: #F4F9FC;
+    font-size: 17px;
+    font-weight: 400;
+}
+/*debe ir debajo del resto para que no la sobrescriban*/
+.masinfo a:hover {
+    color: #2c475c;
 }
 
 /*Otra Formacion*/
@@ -183,6 +214,22 @@ article{
 .card p{
     padding: 25px 20px 25px 20px;
 }
+/*utilizamos los siguientes 3 por tema de conpatibilidad con navegadores*/
+.caja_titulo_formacion a:any-link {
+    color: #F4F9FC;
+}
+.caja_titulo_formacion a:-moz-any-link {
+    color: #F4F9FC;
+}
+.caja_titulo_formacion a:-webkit-any-link {
+    color: #F4F9FC;
+}
+
+/*debe ir debajo del resto para que no la sobrescriban*/
+.caja_titulo_formacion a:hover {
+    color: #2c475c;
+}
+
 
 /*Experiencia y otros*/
 #cajaexperiencia{
